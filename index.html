@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frontier Cleaning — Weekly Outreach Report</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f5f7fa; color: #2d3748; line-height: 1.6; }
+  .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+  .header { background: linear-gradient(135deg, #0f4c75 0%, #1b6ca8 50%, #3282b8 100%); color: white; padding: 40px; border-radius: 12px; margin-bottom: 30px; text-align: center; }
+  .header h1 { font-size: 28px; margin-bottom: 8px; }
+  .header p { font-size: 14px; opacity: 0.85; }
+  .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 30px; }
+  .kpi { background: white; border-radius: 10px; padding: 20px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .kpi .number { font-size: 32px; font-weight: 700; color: #0f4c75; }
+  .kpi .label { font-size: 12px; color: #718096; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 4px; }
+  .section { background: white; border-radius: 10px; padding: 30px; margin-bottom: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .section h2 { font-size: 20px; color: #0f4c75; margin-bottom: 16px; padding-bottom: 10px; border-bottom: 2px solid #e2e8f0; }
+  .section h3 { font-size: 16px; color: #2d3748; margin: 16px 0 10px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #0f4c75; color: white; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; }
+  td { padding: 9px 12px; border-bottom: 1px solid #e2e8f0; }
+  tr:hover { background: #f7fafc; }
+  .highlight { background: #ebf8ff !important; font-weight: 600; }
+  .insight { background: #ebf8ff; border-left: 4px solid #3282b8; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; }
+  .insight strong { color: #0f4c75; }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+  .tag-green { background: #c6f6d5; color: #22543d; }
+  .tag-red { background: #fed7d7; color: #742a2a; }
+  .tag-blue { background: #bee3f8; color: #2a4365; }
+  .tag-yellow { background: #fefcbf; color: #744210; }
+  .tag-gray { background: #e2e8f0; color: #4a5568; }
+  .tag-orange { background: #feebc8; color: #7b341e; }
+  .bar-container { background: #e2e8f0; border-radius: 4px; height: 20px; width: 100%; position: relative; }
+  .bar-fill { height: 100%; border-radius: 4px; background: linear-gradient(90deg, #0f4c75, #3282b8); transition: width 0.3s; }
+  .bar-label { position: absolute; right: 6px; top: 1px; font-size: 11px; font-weight: 600; color: #2d3748; }
+  @media (max-width: 768px) { .kpi-row { grid-template-columns: repeat(2, 1fr); } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <h1>Frontier Cleaning — Weekly Outreach Report</h1>
+  <p>Week of March 2 – 8, 2026 &bull; Data pulled directly from Instantly</p>
+</div>
+
+<!-- KPI ROW 1: Key Numbers -->
+<div class="kpi-row">
+  <div class="kpi">
+    <div class="number">2,557</div>
+    <div class="label">Leads Contacted</div>
+  </div>
+  <div class="kpi">
+    <div class="number">11</div>
+    <div class="label">Positive Replies</div>
+  </div>
+  <div class="kpi">
+    <div class="number">3,322</div>
+    <div class="label">Emails Sent</div>
+  </div>
+  <div class="kpi">
+    <div class="number">3</div>
+    <div class="label">Active Campaigns</div>
+  </div>
+</div>
+
+<!-- KPI ROW 2: Rates & Ratios -->
+<div class="kpi-row">
+  <div class="kpi">
+    <div class="number">2.8%</div>
+    <div class="label">Reply Rate</div>
+  </div>
+  <div class="kpi">
+    <div class="number">15.3%</div>
+    <div class="label">Positive Reply Rate</div>
+  </div>
+  <div class="kpi">
+    <div class="number">232</div>
+    <div class="label">Leads per Positive Reply</div>
+  </div>
+  <div class="kpi">
+    <div class="number">0.6%</div>
+    <div class="label">Bounce Rate</div>
+  </div>
+</div>
+
+<!-- SECTION 1: CAMPAIGN PERFORMANCE -->
+<div class="section">
+  <h2>1. Campaign Performance</h2>
+  <p style="margin-bottom: 16px; color: #718096;">Breakdown of the 3 active Frontier Cleaning campaigns that sent emails during the week of March 2–8.</p>
+
+  <table>
+    <tr><th>Campaign</th><th>Contacted</th><th>Sent</th><th>Replies</th><th>Reply Rate</th><th>Positives</th><th>Bounced</th></tr>
+    <tr class="highlight">
+      <td>Mar 4 | Various | Company website</td>
+      <td>1,274</td>
+      <td>2,039</td>
+      <td>56</td>
+      <td><strong>4.4%</strong></td>
+      <td><strong>6</strong></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Mar 4 | Various (copy)</td>
+      <td>776</td>
+      <td>776</td>
+      <td>11</td>
+      <td>1.4%</td>
+      <td>4</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>Mar 3 | Lawyer</td>
+      <td>505</td>
+      <td>505</td>
+      <td>5</td>
+      <td>1.0%</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr class="highlight">
+      <td><strong>Total</strong></td>
+      <td><strong>2,555</strong></td>
+      <td><strong>3,320</strong></td>
+      <td><strong>72</strong></td>
+      <td><strong>2.8%</strong></td>
+      <td><strong>11</strong></td>
+      <td><strong>16</strong></td>
+    </tr>
+  </table>
+
+  <div class="insight">
+    <strong>Key Insight:</strong> The "Various | Company website" campaign drove the most volume and had the highest reply rate at <strong>4.4%</strong>. This campaign targeted businesses scraped via company websites (restaurants, medical centres, pharmacies, etc.) in the Newcastle area. It also generated <strong>6 of the 11</strong> positive replies. The Lawyer campaign had fewer contacts but still produced 1 positive opportunity.
+  </div>
+</div>
+
+<!-- SECTION 2: INTERESTED LEADS -->
+<div class="section">
+  <h2>2. Positive Replies This Week</h2>
+  <p style="margin-bottom: 16px; color: #718096;">Leads marked as "Interested" in Instantly during the week of March 2–8. These are prospects who expressed genuine interest in commercial cleaning services.</p>
+
+  <h3>Various | Company website (6 positives)</h3>
+  <table>
+    <tr><th>Company</th><th>Email</th><th>Date</th><th>Type</th></tr>
+    <tr><td>Osteria Papazzo</td><td>osteria179kingst@gmail.com</td><td>Mar 4</td><td><span class="tag tag-orange">Restaurant</span></td></tr>
+    <tr><td>Bar Solè</td><td>bar.sole173@gmail.com</td><td>Mar 8</td><td><span class="tag tag-orange">Bar / Hospitality</span></td></tr>
+    <tr><td>The Koutetsu</td><td>info@thekoutetsu.com</td><td>Mar 8</td><td><span class="tag tag-orange">Restaurant</span></td></tr>
+    <tr><td>Victoria Theatre</td><td>victoriatheatre@century.com.au</td><td>Mar 4</td><td><span class="tag tag-yellow">Entertainment</span></td></tr>
+    <tr><td>Broadmeadow Medical Centre</td><td>office@broadmeadowmedical.com.au</td><td>Mar 4</td><td><span class="tag tag-green">Healthcare</span></td></tr>
+    <tr><td>Hamilton Doctors</td><td>office@hamiltondoctors.com.au</td><td>Mar 4</td><td><span class="tag tag-green">Healthcare</span></td></tr>
+  </table>
+
+  <h3>Various (copy) — Newcastle businesses (4 positives)</h3>
+  <table>
+    <tr><th>Company</th><th>Contact</th><th>Date</th><th>Type</th></tr>
+    <tr><td>Baker Love Lawyers</td><td>Terry Morgan | tmorgan@bakerlove.com.au</td><td>Mar 5</td><td><span class="tag tag-blue">Legal</span></td></tr>
+    <tr><td>Precision Fire Protection</td><td>Todd Perry | tperry@precisionfireservices.com.au</td><td>Mar 5</td><td><span class="tag tag-gray">Fire Protection</span></td></tr>
+    <tr><td>Approved Fire Gear</td><td>Sally | sally@approvedfiregear.com.au</td><td>Mar 5</td><td><span class="tag tag-gray">Fire Safety</span></td></tr>
+    <tr><td>NewSure Insurance Brokers</td><td>Tracey | tracey@newsure.com.au</td><td>Mar 5</td><td><span class="tag tag-blue">Insurance</span></td></tr>
+    <tr><td>M-Tronix</td><td>Mark | markl@m-tronix.com.au</td><td>Mar 5</td><td><span class="tag tag-yellow">Electronics</span></td></tr>
+    <tr><td>ELMO Health</td><td>Oliver | oliver@elmohealth.com.au</td><td>Mar 7</td><td><span class="tag tag-green">Healthcare</span></td></tr>
+  </table>
+
+  <h3>Lawyer campaign (1 positive)</h3>
+  <table>
+    <tr><th>Company</th><th>Contact</th><th>Date</th><th>Type</th></tr>
+    <tr><td>Deutsch Miller</td><td>Chris Stevens | chris.stevens@deutschmiller.com</td><td>Mar 3</td><td><span class="tag tag-blue">Legal</span></td></tr>
+  </table>
+
+  <div class="insight">
+    <strong>Key Insight:</strong> This week's positives came from a diverse range of industries — <strong>Healthcare</strong> (3), <strong>Legal</strong> (2), <strong>Hospitality</strong> (3), Fire Safety (2), and Electronics/Insurance (2). The "Various | Company website" campaign targeting Newcastle-area businesses was the top performer, with restaurants and medical centres showing strong interest.
+  </div>
+</div>
+
+<!-- SECTION 3: REPLY BREAKDOWN -->
+<div class="section">
+  <h2>3. Reply Volume Breakdown</h2>
+  <p style="margin-bottom: 16px; color: #718096;">Of the 2,557 leads contacted this week, here is how the responses broke down.</p>
+
+  <table>
+    <tr><th>Metric</th><th>Count</th><th>Rate</th></tr>
+    <tr><td>Human Replies (unique leads)</td><td><strong>72</strong></td><td>2.8% of contacted</td></tr>
+    <tr><td>↳ Positive / Interested</td><td><strong>11</strong></td><td>15.3% of replies</td></tr>
+    <tr><td>↳ Neutral / Negative</td><td>61</td><td>84.7% of replies</td></tr>
+    <tr><td>Auto-Replies (OOO, etc.)</td><td>104</td><td>4.1% of contacted</td></tr>
+    <tr><td>Bounced</td><td>16</td><td>0.6% of contacted</td></tr>
+    <tr><td>No Response</td><td>2,365</td><td>92.5% of contacted</td></tr>
+  </table>
+
+  <div class="insight">
+    <strong>Key Insight:</strong> The <strong>2.8% reply rate</strong> and <strong>15.3% positive reply rate</strong> are solid for cold email. Every ~232 leads contacted yields one positive reply. The <strong>0.6% bounce rate</strong> is well within healthy limits, indicating good list quality.
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div style="text-align: center; padding: 20px; color: #a0aec0; font-size: 12px;">
+  Frontier Cleaning Weekly Report &bull; Prepared by Automathiq &bull; March 2026
+</div>
+
+</div>
+</body>
+</html>
